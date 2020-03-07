@@ -94,6 +94,7 @@ class CountriesViewController: UIViewController, UITextFieldDelegate, CountriesD
     }
     func error(error: Error) {
         print(error);
+        print("test");
     }
     
 }
